@@ -1,0 +1,149 @@
+body {
+    background: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cuerpo {
+    background-image: url("https://images.unsplash.com/photo-1562839492-20a189fafbcb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+    background-size: cover;
+    width: 1300px;
+    height: 840px;
+    margin: auto;
+    border: 1px solid black;
+    color: white;
+}
+.bg-primary {
+    background-color: green;
+}
+
+.bannermovil {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: rgb(2, 219, 2);
+}
+
+.navegacion {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+    font-size: 18px;
+    padding: 15px;
+    margin: 2px;
+}
+
+#banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.squareleft {
+    /* outline-style: groove; */
+    /* outline-color: white; */
+    width: 59%;
+    margin: 5px 5px;
+    margin-top: 10px;
+    
+}
+
+.titlecourses {
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+    /* margin: 60px 100px; */
+    text-align: center;
+    width: 30%;
+    
+}
+
+#splash {
+    width: 40%;
+    height: 150px;
+}
+
+
+.splashandcourses {
+    display: inline-block;
+    margin: 10px 15px;
+    /* border: solid white; */
+}
+
+
+.courses {
+    display: inline-block;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    font-style: bold;
+    width: 30%;
+    margin-top: 80px;
+}
+
+#ribbon {
+    border-radius: 100px;
+    border: 2px solid;
+    width: 60px;
+    height: 60px;
+}
+
+.cuadromapa {
+    width: 39%;
+    /* outline-color: white; */
+    padding: 10px;
+    /* outline-style: groove; */
+    vertical-align: top;
+    margin: 4px;
+    text-align: center;
+}
+
+.wheretogo {
+    padding: 2px;
+    margin: auto;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+    border:  solid 2px;
+    background-color: tomato;
+    width: 39%;
+}
+.transport{
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.urlstyle{
+    color: white;
+    text-decoration: underline;
+}
+
+
+.squaretext {
+    color: white;
+    margin: 5px px;
+    
+}
+
+.login_forgot {
+    
+    padding: 10px;
+    margin: 2px;
+}
+
+#clave {
+    color: lightgray;
+}
+
+.bloque {
+    display: inline-block;
+    height: 430px;
+}
+
+@media screen and (max-width:1000px)
+    {
+    .cuerpo{
+        display: block;
+        width: 100%;
+    }
+}
