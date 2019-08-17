@@ -13,7 +13,7 @@ body {
     color: white;
 }
 .bg-primary {
-    background-color: green;
+    background-color: green !important !important ;
 }
 
 .bannermovil {
@@ -122,6 +122,8 @@ body {
 .squaretext {
     color: white;
     margin: 5px px;
+    padding: 5px;
+    font-size: 14px;
     
 }
 
